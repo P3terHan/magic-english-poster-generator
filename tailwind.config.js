@@ -1,0 +1,29 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#fefce8',
+          100: '#fef9c3',
+          500: '#eab308',
+          600: '#ca8a04',
+          700: '#a16207',
+        },
+        secondary: {
+          500: '#8b5cf6',
+          600: '#7c3aed',
+        }
+      },
+      fontFamily: {
+        'handwriting': ['"Caveat"', 'cursive'],
+        'display': ['"Fredoka One"', 'cursive'],
+      }
+    },
+  },
+  plugins: [],
+}
